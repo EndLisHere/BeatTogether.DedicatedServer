@@ -9,7 +9,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/beattogether/beat-together-dedicated-server
+          images: ghcr.io/endlishere/beat-together-dedicated-server
           tags: |
             type=ref,event=branch
             type=ref,event=pr
