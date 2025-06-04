@@ -1127,7 +1127,7 @@ namespace BeatTogether.DedicatedServer.Ignorance.ENet
         public const uint timeoutLimit = 32;
         public const uint timeoutMinimum = 5000;
         public const uint timeoutMaximum = 30000;
-        public const uint version = (2 << 16) | (4 << 8) | (7);
+        public const uint version = (2 << 16) | (4 << 8) | (9);
 
         public static uint Time
         {
